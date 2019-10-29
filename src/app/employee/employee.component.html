@@ -1,0 +1,23 @@
+<p>
+  employee works!
+</p>
+
+
+<table>
+  <tr>
+    <th>Employee Name</th>
+    <td><input type="text" id="empname" name="empname" [(ngModel)]="addEmployee.employee_name"></td>
+  </tr>
+
+  <tr>
+    <th>Employee Salary</th>
+    <td><input type="text" id="empsal" name="empsal" [(ngModel)]="addEmployee.employee_salary"></td>
+  </tr>
+
+  <tr>
+    <th>Employee Age</th>
+    <td><input type="text" id="empage" name="empage" [(ngModel)]="addEmployee.employee_age"></td>
+  </tr>
+
+  <tr><button (click)="AddEmployee()">Submit</button></tr>
+</table>
